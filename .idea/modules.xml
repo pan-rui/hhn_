@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hhn.iml" filepath="$PROJECT_DIR$/hhn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hhn_common/hhn_common.iml" filepath="$PROJECT_DIR$/hhn_common/hhn_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hhn_manager/hhn_manager.iml" filepath="$PROJECT_DIR$/hhn_manager/hhn_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hhn_server/hhn_server.iml" filepath="$PROJECT_DIR$/hhn_server/hhn_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hhn_web/hhn_web.iml" filepath="$PROJECT_DIR$/hhn_web/hhn_web.iml" />
+    </modules>
+  </component>
+</project>

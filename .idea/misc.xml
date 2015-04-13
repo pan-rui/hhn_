@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Spring" url="file://$PROJECT_DIR$/hhn_service/target/hhn_server/WEB-INF/classes/hhnserver.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/hhn_common" />
+    <file type="web" url="file://$PROJECT_DIR$/hhn_controller" />
+    <file type="web" url="file://$PROJECT_DIR$/hhn_manager" />
+    <file type="web" url="file://$PROJECT_DIR$/hhn_server" />
+    <file type="web" url="file://$PROJECT_DIR$/hhn_web" />
+  </component>
+  <component name="IdProvider" IDEtalkID="23119AFB9DEB55636A802D356638A6A4" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hhn_common/pom.xml" />
+        <option value="$PROJECT_DIR$/hhn_service/pom.xml" />
+        <option value="$PROJECT_DIR$/hhn_web/pom.xml" />
+        <option value="$PROJECT_DIR$/hhn_manager/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="svn://120.24.211.108/firstsvn/hhn" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>

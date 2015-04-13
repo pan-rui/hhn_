@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="controller" />
+        <module name="hhn_common" />
+        <module name="hhn_controller" />
+        <module name="hhn_manager" />
+        <module name="hhn_server" />
+        <module name="hhn_service" />
+        <module name="hhn_web" />
+        <module name="web" />
+      </profile>
+      <profile default="false" name="Annotation profile for controller (1)" enabled="true">
+        <sourceOutputDir name="..\hhn_controller\target\generated-sources\annotations" />
+        <sourceTestOutputDir name="..\hhn_controller\target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="controller (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hhn" target="1.7" />
+      <module name="hhn_common" target="1.7" />
+      <module name="hhn_controller" target="1.7" />
+      <module name="hhn_manager" target="1.7" />
+      <module name="hhn_server" target="1.6" />
+      <module name="hhn_service" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
